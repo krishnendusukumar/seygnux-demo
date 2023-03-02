@@ -1,0 +1,107 @@
+.img-container {
+    background-color: black;
+}
+
+img {
+    width: 100%;
+    height: 80vh;
+    opacity: 0.3;
+}
+
+.img-text {
+    margin-top: -70vh;
+    margin-left: 8rem;
+}
+
+.h1-text {
+    color: rgb(249, 249, 249);
+    width: 25rem;
+    font-size: 5rem;
+}
+
+.span-text {
+    margin-top: 2rem;
+    color: rgb(255, 255, 255);
+    width: 26rem;
+}
+
+.below-img-container {
+    margin-top: 40vh;
+    font-size: 20px;
+    margin-left: 10rem;
+}
+
+hr {
+    margin-top: 2rem;
+    width: 2rem;
+    float: left;
+}
+
+.row {
+    margin-top: 5rem;
+}
+
+.col>h1 {
+    font-size: 25px;
+    margin-bottom: 2rem;
+}
+
+.col>div {
+    margin-bottom: 2rem;
+}
+
+.img2-container {
+    background-color: black;
+}
+
+.img2-container>img {
+    opacity: 0.2;
+    height: 30rem;
+}
+
+.text-img2 {
+    margin-left: 10rem;
+    margin-top: -20rem;
+}
+
+.h1-img2 {
+    color: white;
+    font-size: 3rem;
+}
+
+.div-img2 {
+    color: white;
+}
+
+.text-img2>ul {
+    margin-top: 5rem;
+    margin-right: 10rem;
+    color: white;
+}
+
+.text-img2>ul>li {
+    margin-top: 5rem;
+    margin-right: 10rem;
+    color: white;
+}
+
+.text-img2>hr {
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    img {
+        width: 55vh;
+        position: relative;
+    }
+
+    .below-img-container>.row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .below-img-container {
+        margin-left: 2rem;
+    }
+}
